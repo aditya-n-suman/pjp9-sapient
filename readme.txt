@@ -1,21 +1,15 @@
 To solve the problem
 
-1. The sample file vaccinecentredata.txt can be used
+1. The sample file vaccinecentredata.csv under src/main/resources can be used to read the data and create a sample around the same
 
-To run the application
-
-1. Make sure the application is built successfully with all relevant dependecies with the following command locally 
+2. Make sure the application is built successfully with all relevant dependecies with the following command locally 
 
 mvn clean compile package
 
-2. Once the application is built, run the following command for setting up docker image and building it 
+3. To run the application 
 
-docker build -t myspringbootapp .
+java -jar ./target/springboot-0.0.1-SNAPSHOT.jar
 
-3. To test and run the application, use the following command
-
-docker run -p 8080:8080 myspringbootapp
-
-4. To run the test the cases
+4. To run the test cases, all test cases will be run
 
 mvn test

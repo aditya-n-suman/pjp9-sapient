@@ -9,6 +9,7 @@ public class VaccineData {
 	String location;
 	Boolean available;
 	Integer slots;
+	
 	public Integer getSlots() {
 		return slots;
 	}

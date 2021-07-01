@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-VaccineCentreApp<springboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.asde.springboot.VaccineCentreApp",
+            "projectName": "springboot",
+            "args": ""
+        }
+    ]
+}

@@ -11,7 +11,7 @@ public class FileReadingServiceImplTest {
 	@Test
 	void testReadVaccineCentreData() {
 		IFileReadingService fileReadingServie = new FileReadingServiceImpl();
-		assertTrue(fileReadingServie.readVaccinCentreData("testVaccineCentreData.txt") instanceof VaccineData);
+		assertTrue(fileReadingServie.readVaccinCentreData() instanceof VaccineData);
 	}
 
 	@Test
@@ -19,11 +19,4 @@ public class FileReadingServiceImplTest {
 		IFileReadingService fileReadingServie = new FileReadingServiceImpl();
 		assertTrue(fileReadingServie.getTotalSlotsForLocation("gurugram", "covaxin") instanceof Integer);
 	}
-
-	@Test
-	void testGetTotalSlotsForLocation1() {
-		IFileReadingService fileReadingServie = new FileReadingServiceImpl();
-		assertTrue(fileReadingServie.getTotalSlotsForLocation("gurugram", "covaxin") == 50);
-	}
-
 }

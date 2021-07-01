@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.asde.springboot.controller.SpringbootControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.686 s <<< FAILURE! - in com.asde.springboot.controller.SpringbootControllerTest
+testVaccineCentreData  Time elapsed: 0.428 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.asde.springboot.controller.SpringbootControllerTest.testVaccineCentreData(SpringbootControllerTest.java:41)
+
